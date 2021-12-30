@@ -19,7 +19,8 @@ names = 'cfg/obj.names'  #分類標籤名稱檔
 backup = 'cfg/weights'  #儲存訓練模型資料夾
 validratio = 0.1  #驗證資料比例
 
-print('開始建立設定資料！(第一次執行會較久，請耐心等候！)')
+print('開始建立設定資料！')
+print('(第一次執行會較久，請耐心等候！)')
 #下載預訓練檔
 if not os.path.exists("darknet53.conv.74"):
     wget.download('https://pjreddie.com/media/files/darknet53.conv.74')
