@@ -46,4 +46,5 @@ for flb in lbfiles:
 fxml.close()
 ftxt.close()
 print('建立訓練資料完成！')
-    
+
+print("幫大沛錦改完了~")
